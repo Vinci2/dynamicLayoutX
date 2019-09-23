@@ -1,1 +1,6 @@
-<p>dashboard-first-main-container works!</p>
+<button (click)="onChangeSize()">CHANGESIZE</button>
+<button (mousedown)="startCounting($event)" (mouseup)="stopCounting($event)">resize</button>
+<div class="main-wrapper">
+  <div class="basic-element" *ngFor="let widget of elementsList" [ngStyle]="{'min-height': widget.height, 'min-width': widget.width}">{{widget.widgetType}}</div>
+</div>
+
