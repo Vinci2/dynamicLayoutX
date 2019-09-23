@@ -9,20 +9,9 @@
 }
 
 
-.basic-element {
-  min-width: 30rem;
-  height: 10rem;
-  margin: 2rem;
-  background-color: beige;
-  border: 1px solid blue
-}
+.dummy-widget {
+  width: 100%;
+  height: 100%;
 
-
-.element-1 {
-  min-height: 15rem;
-}
-
-.element-2 {
-  min-height: 15rem;
-  min-width: 40rem;
+  background-color: aliceblue;
 }

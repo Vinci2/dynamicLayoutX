@@ -1,0 +1,7 @@
+<div class="resizable-container__wrapper" [ngStyle]="{'height': containerHeight + units, 'width': containerWidth + units}">
+  <ng-content></ng-content>
+  <button class="resizable-container__resize-button" (mousedown)="onResizeStart($event)">+</button>
+</div>
+
+
+

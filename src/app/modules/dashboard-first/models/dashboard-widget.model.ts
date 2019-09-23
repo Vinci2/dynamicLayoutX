@@ -1,6 +1,6 @@
 export interface DashboardWidget {
-  height: string;
-  width: string;
+  height: number;
+  width: number;
   position: number;
   widgetType: string;
 }

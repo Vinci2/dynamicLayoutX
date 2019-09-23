@@ -1,0 +1,18 @@
+.resizable-container {
+  &__wrapper {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: cadetblue;
+    border: 1px solid red;
+    position: relative;
+  }
+  &__resize-button {
+    background-color: red;
+    color: blue;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
